@@ -1,35 +1,41 @@
 # 📝 FastAPI Notes Web App
 
-A simple web application built with **FastAPI**, **MongoDB**, and **Bootstrap** that allows users to create and store notes. The notes are saved in a MongoDB collection and displayed dynamically using server-side rendering.
+This is a simple **Notes Web Application** built with **FastAPI**, **MongoDB**, and **Bootstrap**.  
+It allows users to submit notes through a web form, and stores them in a MongoDB collection using **MongoDB Compass**.
 
 ---
 
 ## 🚀 Features
 
-- 🌐 Web interface using Bootstrap
-- 📥 Add new notes with a form
-- 🗃️ Store notes in MongoDB
-- 🔄 View and update notes (optional extension)
-- ⚡ Powered by FastAPI for fast and easy backend
+- Add notes with a title and description
+- Store notes in MongoDB using PyMongo
+- Responsive UI with Bootstrap
+- FastAPI backend with server-side rendering
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-- **Backend:** FastAPI (Python)
-- **Database:** MongoDB (MongoDB Atlas or Compass)
-- **Frontend:** HTML, Jinja2 Templates, Bootstrap 5
+- **Backend**: [FastAPI](https://fastapi.tiangolo.com/)
+- **Database**: [MongoDB](https://www.mongodb.com/) (accessed via MongoDB Compass)
+- **Frontend**: [Bootstrap 5](https://getbootstrap.com/)
+- **Templates**: Jinja2
+- **Web Server**: Uvicorn
 
 ---
 
 ## 📦 Installation
 
-### 1. Clone the repo
-
+### 1. Clone the repository:
 ```bash
 git clone https://github.com/furqann76/FastAPI-WEB.git
 cd FastAPI-WEB
-### 2. To run the server
-```bash
+
+🖥️ Run the Server
+
+To start the development server, run:
+
 uvicorn index:app --reload
+
+Then open http://127.0.0.1:8000 in your browser.
 
