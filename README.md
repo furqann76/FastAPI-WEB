@@ -29,3 +29,7 @@ A simple web application built with **FastAPI**, **MongoDB**, and **Bootstrap** 
 ```bash
 git clone https://github.com/furqann76/FastAPI-WEB.git
 cd FastAPI-WEB
+### 2. To run the server
+```bash
+uvicorn index:app --reload
+
